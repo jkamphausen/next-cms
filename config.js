@@ -1,8 +1,18 @@
 // endpoint
-const wpApiEndpoint = "https://demo.wp-api.org";
+const wpApiEndpoint = "https://demo.wp-api.org"
+
+// comments
+const disableCommentsInPosts = true
+const disableCommentsInPages = true
+
+const commentSettings = {
+    disableCommentsInPosts,
+    disableCommentsInPages
+}
 
 const config = {
-    wpApiEndpoint
-};
+    wpApiEndpoint,
+    commentSettings
+}
 
 export default config;

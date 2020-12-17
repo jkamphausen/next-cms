@@ -11,10 +11,10 @@ import styles from '../styles/main.module.css'
 const Page = withCMSPage(() => {
   return <>
     <div className={styles.container}>
-      <Header/>
-      <PostPreviews/>
+      <Header />
+      <PostPreviews />
     </div>
-    <Footer/>
+    <Footer />
   </>
 })
 

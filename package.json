@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "date-fns": "^2.15.0",
-    "lodash": "^4.17.19"
+    "lodash": "^4.17.19",
+    "styled-components": "^5.1.1"
   }
 }

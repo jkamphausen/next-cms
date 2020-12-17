@@ -1,0 +1,20 @@
+.blocks-gallery-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  grid-auto-flow: column;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li.blocks-gallery-item,
+li.blocks-gallery-item figure {
+    padding: 0;
+    margin: 0;
+}
+
+.blocks-gallery-item figure {
+
+    width: 100%;
+}
